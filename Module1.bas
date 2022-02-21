@@ -161,14 +161,9 @@ Sub VBAchallenge():
             Range("P1:Q1,O2:O4").Select
             Selection.Font.Bold = True
             Range("O1:Q4").Select
-            Selection.Borders(xlDiagonalDown).LineStyle = xlNone
-            Selection.Borders(xlDiagonalUp).LineStyle = xlNone
-            With Selection.Borders(xlEdgeLeft)
-                
-                .Weight = xlThin
-            
-            End With
-          
+                            
+                          
+                  
             
         End If
             
